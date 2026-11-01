@@ -20,7 +20,9 @@
 ※ 실제 구현한 기능만 기재
 
 ## 4. 프로젝트 화면
-![메인 페이지](./images/main.png)
+<p align="center">
+  <img src="./images/main.png" width="700">
+</p>
 
 ## 5. 데이터베이스 구조
 (테이블 구조 또는 ERD 첨부)
