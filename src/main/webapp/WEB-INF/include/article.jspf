@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+			<%for(BoardDTO b : boardList) {
+				int category = b.getCategory();
+				String cate = "";
+				if(category == 0) cate = "Travel";
+				if(category == 1) cate = "Snap";
+				if(category == 2) cate = "Daily";
+				
+				/* 이미지 파일 확장자 관련 */
+				String base = b.getImg();
+				
+				/*  */
+				System.out.println("'" + base + "'");
+				
+				String[] exts = {
+					    ".JPG",
+					    ".JPEG",
+					    ".PNG",
+					    ".WEBP",
+					    ".GIF",
+					    ".jpg",
+					    ".jpeg",
+					    ".png",
+					    ".webp",
+					    ".gif"
+					};
+				
+				String filePath = "";
+				for(String ext : exts){
+
+				    String realPath = application.getRealPath("/photo/" + base + ext);
+
+				    if(realPath != null){
+				        java.io.File f = new java.io.File(realPath);
+				        
+				        System.out.println(realPath + " : " + f.exists());
+
+				        if(f.exists()){
+				            filePath = "photo/" + base + ext;
+				            break;
+				        }
+				    }
+				}
+			%>	
+				<a href="content.jsp?p_no=<%=b.getP_no() %>">
+					<div class="col">
+					  <div class="card h-100">
+					  <img src="<%=filePath%>"  oncontextmenu="return false;" class="card-img-top">
+					    <%-- <img src="photo/<%=b.getImg() %>" class="card-img-top"> --%>
+					    <div class="card-body">
+					      <h5 class="card-title"><%=b.getP_name() %></h5>
+					      <hr>
+					      <p class="card-text"><%=cate %></p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-body-secondary">작성일</small>
+					    </div>
+					  </div>
+					</div>			
+				</a>
+				
+				<%
+				System.out.println("DB : " + b.getImg());
+				System.out.println("찾은 파일 : " + filePath);
+				%>
+				
+			<%} %>
+			</div>
