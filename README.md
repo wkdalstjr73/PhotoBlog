@@ -21,7 +21,7 @@
 
 ## 4. 프로젝트 화면
 <p align="center">
-  <img src="./images/main.png" width="300">
+  <img src="./images/main.png" width="500">
 </p>
 
 ## 5. 데이터베이스 구조
