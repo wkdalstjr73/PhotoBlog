@@ -31,9 +31,11 @@
 ## 6. 데이터 처리 구조
 (DAO, DTO를 활용한 데이터 처리 과정 설명)
 <p align="center">
-  <img src="./images/DAO.png" width="500">
+  <h1>DTO</h1>
+  <img src="./images/DTO.png" width="500">
 </p>
 <p align="center">
+  <h1>DAO</h1>
   <img src="./images/getBoardList.png" width="300">
   <img src="./images/getBoardListPaging.png" width="300">
   <img src="./images/getBoardCount.png" width="300">
