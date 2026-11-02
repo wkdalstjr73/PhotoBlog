@@ -19,12 +19,12 @@
 
 
 ## 4. 프로젝트 화면
-<p align="center">
+<p align="left">
   <img src="./images/main.png" width="500">
 </p>
 
 ## 5. 데이터베이스 구조
-<p align="center">
+<p align="left">
   <img src="./images/table.png" width="500">
 </p>
 
@@ -36,11 +36,11 @@
 </p>
 <p align="center">
   <h1>DAO</h1>
-  <img src="./images/getBoardList.png" width="300">
-  <img src="./images/getBoardListPaging.png" width="300">
-  <img src="./images/getBoardCount.png" width="300">
-  <img src="./images/getTravelList.png" width="300">
-  <img src="./images/getBoard.png" width="300">
+  <img src="./images/getBoardList.png" width="500">
+  <img src="./images/getBoardListPaging.png" width="500">
+  <img src="./images/getBoardCount.png" width="500">
+  <img src="./images/getTravelList.png" width="500">
+  <img src="./images/getBoard.png" width="500">
 </p>
 
 ## 7. 개발 중 발생한 문제 및 해결
