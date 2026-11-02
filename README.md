@@ -19,9 +19,22 @@
 
 
 ## 4. 프로젝트 화면
+### 홈 화면
 <p align="left">
-  <img src="./images/main.png" width="500">
+  <img src="./images/main.png" width="300">
 </p>
+
+### 여행 카테고리 화면
+<p align="left">
+  <img src="./images/travel.png" width="300">
+</p>
+
+### 게시물 화면
+<p align="left">
+  <img src="./images/board.png" width="300">
+</p>
+
+
 
 ## 5. 데이터베이스 구조
 <p align="left">
@@ -35,11 +48,30 @@
 </p>
 <p align="center">
   <h1>DAO</h1>
-  <img src="./images/getBoardList.png" width="500">
-  <img src="./images/getBoardListPaging.png" width="500">
-  <img src="./images/getBoardCount.png" width="500">
-  <img src="./images/getTravelList.png" width="500">
-  <img src="./images/getBoard.png" width="500">
+  ### 전체 게시글 목록 조회
+  <p align="left">
+    <img src="./images/getBoardList.png" width="500">
+  </p>
+  
+  ### 전체 게시글 목록 페이징 조회
+  <p align="left">
+    <img src="./images/getBoardListPaging.png" width="500">
+  </p>
+  
+  ### 전체 게시글 수 조회
+  <p align="left">
+    <img src="./images/getBoardCount.png" width="500">
+  </p>
+  
+  ### travel 카테고리 게시글 목록 조회
+  <p align="left">
+    <img src="./images/getTravelList.png" width="500">
+  </p>
+  
+  ### 게시글 상세 조회
+  <p align="left">
+    <img src="./images/getBoard.png" width="500">
+  </p>
 </p>
 
 ## 7. 개발 중 발생한 문제 및 해결
