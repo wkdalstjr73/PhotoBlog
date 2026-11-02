@@ -21,17 +21,17 @@
 ## 4. 프로젝트 화면
 ### 홈 화면
 <p align="left">
-  <img src="./images/main.png" width="300">
+  <img src="./images/main.png" width="500">
 </p>
 
 ### 여행 카테고리 화면
 <p align="left">
-  <img src="./images/travel.png" width="300">
+  <img src="./images/travel.png" width="500">
 </p>
 
 ### 게시물 화면
 <p align="left">
-  <img src="./images/board.png" width="300">
+  <img src="./images/board.png" width="500">
 </p>
 
 
