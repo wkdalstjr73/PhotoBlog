@@ -29,7 +29,6 @@
 </p>
 
 ## 6. 데이터 처리 구조
-(DAO, DTO를 활용한 데이터 처리 과정 설명)
 <p align="center">
   <h1>DTO</h1>
   <img src="./images/DTO.png" width="500">
