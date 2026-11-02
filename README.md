@@ -33,6 +33,13 @@
 <p align="center">
   <img src="./images/DAO.png" width="500">
 </p>
+<p align="center">
+  <img src="./images/getBoardList.png" width="300">
+  <img src="./images/getBoardListPaging.png" width="300">
+  <img src="./images/getBoardCount.png" width="300">
+  <img src="./images/getTravelList.png" width="300">
+  <img src="./images/getBoard.png" width="300">
+</p>
 
 ## 7. 개발 중 발생한 문제 및 해결
 - 이미지 파일 출력 과정에서 확장자 관련 문제로 출력되지 않던 이미지를 출력되도록 만듦
