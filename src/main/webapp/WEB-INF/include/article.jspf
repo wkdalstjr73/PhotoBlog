@@ -55,9 +55,11 @@
 					      <hr>
 					      <p class="card-text"><%=cate %></p>
 					    </div>
+					    <!-- 
 					    <div class="card-footer">
 					      <small class="text-body-secondary">작성일</small>
 					    </div>
+					    -->
 					  </div>
 					</div>			
 				</a>
